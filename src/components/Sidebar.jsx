@@ -10,6 +10,7 @@ function Sidebar() {
     { name: 'Clientes', path: '/clients', icon: '🏢' },
     { name: 'Reportes', path: '/reports', icon: '📈' },
     { name: 'Configuración', path: '/settings', icon: '⚙️' },
+    { name: 'Perfil', path: '/profile', icon: '👤' },
   ]
 
   const isActive = (path) => {

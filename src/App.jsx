@@ -5,6 +5,7 @@ import Clients from './pages/Clients'
 import Dashboard from './pages/Dashboard'
 import Login from './pages/Login'
 import NotFound from './pages/NotFound'
+import Profile from './pages/Profile'
 import Reports from './pages/Reports'
 import Settings from './pages/Settings'
 import Users from './pages/Users'
@@ -25,6 +26,7 @@ function App() {
                   <Route path="clients" element={<Clients />} />
                   <Route path="reports" element={<Reports />} />
                   <Route path="settings" element={<Settings />} />
+                  <Route path="profile" element={<Profile />} />
                   <Route path="*" element={<NotFound />} />
                 </Routes>
               </Layout>

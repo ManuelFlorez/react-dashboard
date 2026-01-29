@@ -9,10 +9,14 @@ Dashboard moderno construido con React 18, Vite y Tailwind CSS.
 - 🎨 Tailwind CSS para estilos
 - 🔀 React Router v6 con rutas protegidas
 - 🔐 Sistema de autenticación con Context API
+- � Perfil de usuario con edición de información
 - 👥 Gestión completa de usuarios (auditoría, bloqueo, paginación)
+- 🏢 Gestión de clientes (Usuario App y Voucher)
+- 📊 Panel de reportes con múltiples vistas
 - ⚙️ Panel de configuración completo
 - 🧪 Vitest para pruebas
 - 📋 ESLint + Prettier
+- 🚀 Despliegue automático en GitHub Pages
 
 ## 📦 Instalación
 
@@ -104,6 +108,14 @@ Para información detallada sobre la vista de clientes, consulta [CLIENTS_FEATUR
 - 👁️ Modal de detalles con información completa
 - 💾 Gasto total y promedio por cliente
 - 📄 Paginación (5 clientes por página)
+
+#### Perfil
+Para información detallada sobre la vista de perfil, consulta [PROFILE_FEATURE.md](./PROFILE_FEATURE.md).
+- 👤 Información completa del usuario
+- ✏️ Edición de datos personales
+- 🔒 Cambio de contraseña
+- ⚙️ Preferencias y configuración
+- 🚪 Cierre de sesión y zona de peligro
 
 #### Configuración
 Para información sobre el panel de configuración, consulta [SETTINGS_FEATURE.md](./SETTINGS_FEATURE.md).
