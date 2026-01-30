@@ -12,7 +12,7 @@ import Users from './pages/Users'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-dashboard">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route
