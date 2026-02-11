@@ -1,3 +1,4 @@
+import Footer from './Footer'
 import Header from './Header'
 import Sidebar from './Sidebar'
 
@@ -10,6 +11,7 @@ function Layout({ children }) {
         <main className="flex-1 overflow-auto p-6">
           {children}
         </main>
+        <Footer />
       </div>
     </div>
   )
