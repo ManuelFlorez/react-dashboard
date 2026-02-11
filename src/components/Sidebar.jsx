@@ -1,3 +1,10 @@
+import AssessmentIcon from '@mui/icons-material/Assessment'
+import BusinessIcon from '@mui/icons-material/Business'
+import DashboardIcon from '@mui/icons-material/Dashboard'
+import DateRangeIcon from '@mui/icons-material/DateRange'
+import ManageAccountsIcon from '@mui/icons-material/ManageAccounts'
+import PeopleIcon from '@mui/icons-material/People'
+import SettingsIcon from '@mui/icons-material/Settings'
 import { Link, useLocation } from 'react-router-dom'
 
 function Sidebar() {
@@ -5,12 +12,13 @@ function Sidebar() {
   const currentPath = location.pathname
 
   const menuItems = [
-    { name: 'Dashboard', path: '/', icon: '📊' },
-    { name: 'Usuarios', path: '/users', icon: '👥' },
-    { name: 'Clientes', path: '/clients', icon: '🏢' },
-    { name: 'Reportes', path: '/reports', icon: '📈' },
-    { name: 'Configuración', path: '/settings', icon: '⚙️' },
-    { name: 'Perfil', path: '/profile', icon: '👤' },
+    { name: 'Dashboard', path: '/', icon: <DashboardIcon />},
+    { name: 'Usuarios', path: '/users', icon: <PeopleIcon /> },
+    { name: 'Clientes', path: '/clients', icon: <BusinessIcon /> },
+    { name: 'Reportes', path: '/reports', icon: <AssessmentIcon /> },
+    { name: 'Agenda', path: '/schedule', icon: <DateRangeIcon /> },
+    { name: 'Configuración', path: '/settings', icon: <SettingsIcon /> },
+    { name: 'Perfil', path: '/profile', icon: <ManageAccountsIcon /> },
   ]
 
   const isActive = (path) => {
